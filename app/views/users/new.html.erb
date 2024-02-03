@@ -1,0 +1,27 @@
+<div class="main user_form_main">
+    <div class="user_form">
+        <%= form_with model: @user do |f| %>
+            <div class="user_form_label">
+                <%= f.label :name%>
+            </div>
+            <div class="form_field">
+                <%= f.text_field :name %>
+            </div>
+            <div class="user_form_label">
+                <%= f.label :email, "Email" %>
+            </div>
+            <div class="form_field">
+                <%= f.text_field :email %>
+            </div>
+            <div class="user_form_label">
+                <%= f.label :password, "Password" %>
+            </div>
+            <div class="form_field">
+                <%= f.password_field :password %>
+            </div>
+            <div class="form_submit">
+                <%= f.submit "Sign Up"%>
+            </div>
+        <% end %>
+    </div>
+</div>
