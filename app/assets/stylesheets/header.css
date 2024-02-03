@@ -1,0 +1,18 @@
+header {
+    background-color: aliceblue;
+    height: 64px;
+}
+
+.title {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+nav li {
+    list-style: none;
+    float: left;
+    margin: 5px;
+}
